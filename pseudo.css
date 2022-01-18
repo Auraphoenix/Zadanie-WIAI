@@ -1,0 +1,133 @@
+body{
+    background-color: #285b66;
+    font-family: "Snell Roundhand", cursive; 
+}
+
+.empty{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+
+.menu{
+    width: 20%;
+    background-color: #133235;
+    font-size: 30px;
+    position: fixed;
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul>li{
+    padding: 5px 5px 10px 0;
+}
+
+a{
+    color: #55a29f;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #377180;
+}
+
+.logo{
+    width: 100%;
+    border: 2px solid #285b66;
+    margin: 0;
+    height: 100px;
+    
+}
+
+.imglogo{
+    width: 300px;
+    height: 80px;
+    margin-top: 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.container{
+    display: inline-block;
+    padding: 40px;
+    width: 70%;
+   align-items: center;
+}
+
+h1{
+    color: #89e9dc;
+    text-align: center;
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+    color: #89e9dc;
+    text-align: center;
+}
+
+p{
+    color: #89e9dc;
+    text-align: justify;
+    font-size: 30px;
+}
+
+#photo1{
+    width: 400px;
+    height: 300px;
+}
+
+#photo2{
+    width: 400px;
+    height: 300px;
+    float:right;
+    margin: 60px;
+}
+#photo2:active{
+    transform: scale(128%);
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.col{
+    width: 33%;
+    display:inline-block;
+}
+
+.img2{
+    width: 15%;
+    margin:35px;
+}
+
+.img2:active{
+    transform: scale(128%);
+}
+
+ol>li{
+    margin: 10px;
+    color: #89e9dc;
+    text-align: justify;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    color:#55a29f;
+    font-size: 20px;
+}
+
+/* color: #133235;  szmaragdowy
+.color2 {color: #1b3a4c;  jasniejszy szmaragd
+.color3 {color: #285b66;  jeszcze jasniejszy
+.color4 {color: #377180;} jasniejszy
+.color5 {color: #55a29f;} jasniejszy*/
